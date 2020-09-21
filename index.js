@@ -1,5 +1,5 @@
-var myself = {
-    name: "Ilya",
-    age: 19
+var combine = function (n1, n2) {
+    var result = n1 + n2;
+    return result;
 };
-console.log(myself.name); // 1:12:38
+console.log(combine(1, '1'));

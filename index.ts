@@ -1,15 +1,6 @@
-const myself = {
-    name: "Ilya",
-    age: 19,
-    hobbies: ['Lazy on the sofa', 'programming', 'running'],
-    role: [2, 'sportsmen']
+const combine = (n1: number | string, n2: number | string) => {
+    const result = n1 + n2;
+    return result;
 };
 
-let hobbies: string[];
-hobbies = ['reading'];
-
-for (const hobby of hobbies) {
-    console.log(hobby);
-}
-
-console.log(myself.name); // 1:24
+console.log(combine(1, '1')); // 1^50"54
